@@ -12,6 +12,6 @@ Este projeto é um site símples para uma Grífe de Roupas.
 1. Clone este repositório:
 
 ```bash
-git clone https://github.com/theMytt/TS_Calculator.git
+git clone https://github.com/theMytt/Luxure.git
 ```
 2. Abra o arquivo index.html, localizado em ```~/```
