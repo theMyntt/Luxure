@@ -1,0 +1,11 @@
+.err {
+  border-radius: 50px;
+  background-image: url("../../../assets/img/whiteBlur.jpg");
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
