@@ -1,0 +1,29 @@
+.masterpage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+}
+
+.masterpage #logo {
+  height: 40px;
+}
+
+.masterpage .nav ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+.masterpage .nav ul li {
+  margin-right: 10px;
+}
+
+.masterpage .nav ul li:last-child {
+  margin-right: 10px;
+}
+
+.masterpage .nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
