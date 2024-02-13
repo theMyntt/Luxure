@@ -16,11 +16,12 @@
 }
 
 .masterpage .nav ul li {
-  margin-right: 10px;
+  margin-left: 10px;
+  text-align: right;
 }
 
-.masterpage .nav ul li:last-child {
-  margin-right: 10px;
+.masterpage .nav ul li:first-child {
+  margin: 0;
 }
 
 .masterpage .nav ul li a {
