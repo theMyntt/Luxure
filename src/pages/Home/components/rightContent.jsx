@@ -3,7 +3,7 @@ export default function RightContentHome() {
     <div className="contents" id="rightContent">
       <p><b>Conteúdo da página</b></p> <br />
       <ul className="nav">
-        <li><b>Início</b></li>
+        <li><b>Bem vindo</b></li>
         <ul>
           <li>Nova coleção de blazers.</li>
           <li>Coleção de bolsas.</li>
