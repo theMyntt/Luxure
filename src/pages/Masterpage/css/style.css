@@ -10,9 +10,7 @@
 }
 
 .masterpage .nav ul {
-  display: flex;
   list-style-type: none;
-  align-items: center;
 }
 
 .masterpage .nav ul li {
@@ -27,4 +25,38 @@
 .masterpage .nav ul li a {
   text-decoration: none;
   color: #000;
+}
+
+.masterpage .nav #menu {
+  width: 32px;
+}
+
+@media (min-width: 900px) {
+  .masterpage .nav ul {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (max-width: 900px) {
+  .masterpage {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    padding: 0 50px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+  }
+  .masterpage #logo {
+    margin-bottom: 20px;
+  }
+  
+  .masterpage .nav ul {
+    display: none;
+  }
+
 }

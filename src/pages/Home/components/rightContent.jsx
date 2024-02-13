@@ -1,6 +1,6 @@
 export default function RightContentHome() {
   return (
-    <div className="contents" id="rightContent">
+    <div className="contents desktop-only" id="rightContent">
       <p><b>Conteúdo da página</b></p> <br />
       <ul className="nav">
         <li><b>Bem vindo</b></li>

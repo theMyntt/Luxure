@@ -4,7 +4,7 @@ import RightContentHome from "./components/rightContent"
 
 export default function Home() {
   return (
-    <div className="home">
+    <div className="home container">
       <LeftContentHome />
       <RightContentHome />
     </div>

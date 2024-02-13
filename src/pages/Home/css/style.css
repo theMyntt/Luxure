@@ -32,3 +32,9 @@
 .home #leftContent .padding-15 {
   padding: 0 15px;
 }
+
+@media (max-width: 900px) {
+  .home #leftContent {
+    width: 100%;
+  }
+}

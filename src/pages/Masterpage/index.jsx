@@ -1,4 +1,5 @@
 import Logo from "../../assets/icon/logo.png";
+
 import "./css/style.css"
 
 export default function Masterpage() {
@@ -6,7 +7,7 @@ export default function Masterpage() {
     <div className="masterpage">
       <img src={Logo} alt="logo" id="logo"/>
       <div className="nav">
-        <ul>
+        <ul className="options">
           <li><a href="#home">Masculina</a></li>
           <li><a href="#about">Feminina</a></li>
           <li><a href="#contact">Kids</a></li>
