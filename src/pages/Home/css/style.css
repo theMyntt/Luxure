@@ -1,0 +1,34 @@
+.home {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home .contents:first-child {
+  width: 69%;
+}
+.home .contents:last-child {
+  width: 23%;
+  text-align: right;
+}
+
+.home #leftContent img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.home #leftContent .gray  {
+  background-color: rgb(224 224 224);
+  border-radius: 20px;
+}
+
+.home #leftContent .card {
+  margin-bottom: 30px;
+  /* padding: 20px; */
+}
+.home #leftContent .card:last-child {
+  margin-bottom: 0;
+}
+
+.home #leftContent .padding-15 {
+  padding: 0 15px;
+}
