@@ -1,10 +1,12 @@
-import Cards from "./components/cards"
+import "./css/style.css"
+import LeftContentHome from "./components/leftContent"
+import RightContentHome from "./components/rightContent"
 
 export default function Home() {
   return (
-    <div>
-      <Cards />
-      {/* <p>hi</p> */}
+    <div className="home">
+      <LeftContentHome />
+      <RightContentHome />
     </div>
   )
 }
